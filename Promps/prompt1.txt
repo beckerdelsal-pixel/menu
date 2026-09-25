@@ -1,0 +1,7 @@
+Prompt inicial:
+Actua como diseñador grafico, mejora la parte visual de este menu de proyectos, modifica lo necesario, ademas debes crear el documento .css que se llame estilos, genera lo necesario para que pueda tener una figura visual atractiva y formal sin eliminar ni modificar la informacion que tiene actualmente
+
+
+Propmt modificación1:
+Necesito que modifiques un poco los colores, ya que la vista se fuerza mucho con el todo de fondo y el usuario se puede sentir irritacion, de ser necesario agregar nuevos tags de <div> o de <spam> y tambien ids para componentes debes agregarlos para hacer una mejor interfaz visual de la pagina. Debes tener en cuenta la psicologia del color, la pagina esta enfocada a subir los proyectos actuales y futuros que seran desarrollados a lo largo del tiempo
+

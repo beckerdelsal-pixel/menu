@@ -2,23 +2,53 @@
 <html>
 
 <head>
-
     <link rel="stylesheet" href="estilos.css">
 </head>
 
 <body>
-    <h2>AUTOR: Becker Del Salto (Becktorke)</h2>
-    <div class="personaje">
-        <img src="personaje.png" />
-    </div>
+    <main id="portafolio">
+        <header id="encabezado">
+            <span id="etiqueta-portafolio">PORTAFOLIO DE PROYECTOS</span>
+            <h2>AUTOR: Becker Del Salto (Becktorke)</h2>
+        </header>
 
-    <h2>CURSO: Programando con JavaScript</h2>
-    <br>
-    <p>El juego limones, trata de un personaje (jugador) que debe recoger un total de 10 limones en total, sin embargo, cada vez que avanza mas se va acelerando la caida, a su vez que el tiempo es cada vez menor. Lograra conseguirlo?!....</p> 
-    <a href="https://juego-limones-gold-two.vercel.app">JUEGO_LIMONES</a>
-    <br>
-    <p>El juego cazando, trata de un gato el cual debe alcanzar su comida un total de 6 veces, pero solo tiene 10 segundos para lograrlo. Sera capaz de comer toda su comida en 10 segundos?!....</p>
-    <a href="https://juego-cazando-chi-mocha.vercel.app">JUEGO_CAZANDO</a>
+        <section id="perfil" class="tarjeta-principal">
+            <div class="personaje">
+                <img src="personaje.png" alt="Personaje del autor" />
+            </div>
+            <div class="intro">
+                <span class="separador"></span>
+                <p class="texto-intro">Proyectos desarrollados y experiencias creadas con JavaScript.</p>
+            </div>
+        </section>
+
+        <section id="proyectos">
+            <div class="titulo-seccion">
+                <span class="numero-seccion">01</span>
+                <h2>CURSO: Programando con JavaScript</h2>
+            </div>
+
+            <article id="proyecto-limones" class="proyecto">
+                <div class="proyecto-contenido">
+                    <span class="estado">PROYECTO</span>
+                    <p>El juego limones, trata de un personaje (jugador) que debe recoger un total de 10 limones en total, sin embargo, cada vez que avanza mas se va acelerando la caida, a su vez que el tiempo es cada vez menor. Lograra conseguirlo?!....</p>
+                    <a id="boton-limones" class="boton-proyecto" href="https://juego-limones-gold-two.vercel.app">JUEGO_LIMONES</a>
+                </div>
+            </article>
+
+            <article id="proyecto-cazando" class="proyecto">
+                <div class="proyecto-contenido">
+                    <span class="estado">PROYECTO</span>
+                    <p>El juego cazando, trata de un gato el cual debe alcanzar su comida un total de 6 veces, pero solo tiene 10 segundos para lograrlo. Sera capaz de comer toda su comida en 10 segundos?!....</p>
+                    <a id="boton-cazando" class="boton-proyecto" href="https://juego-cazando-chi-mocha.vercel.app">JUEGO_CAZANDO</a>
+                </div>
+            </article>
+        </section>
+
+        <footer id="pie">
+            <span>PROYECTOS ACTUALES Y FUTUROS</span>
+        </footer>
+    </main>
 </body>
 
 </html>
