@@ -5,3 +5,5 @@ Actua como diseñador grafico, mejora la parte visual de este menu de proyectos,
 Propmt modificación1:
 Necesito que modifiques un poco los colores, ya que la vista se fuerza mucho con el todo de fondo y el usuario se puede sentir irritacion, de ser necesario agregar nuevos tags de <div> o de <spam> y tambien ids para componentes debes agregarlos para hacer una mejor interfaz visual de la pagina. Debes tener en cuenta la psicologia del color, la pagina esta enfocada a subir los proyectos actuales y futuros que seran desarrollados a lo largo del tiempo
 
+Prompt modificación final:
+Ahora como ultima modificacion, necesito que ajustes la imagen "personaje" al espacio designado a ella, si puedes notar, las partes inferiores aparecen fuera del circulo designado para la imagen y asi no debe aparecer, debe estar justo en el centro y que los bordes de la misma no sobresalgan de su espacio especifico. No debes modificar nada mas
